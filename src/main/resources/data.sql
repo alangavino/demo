@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS Log_Values;
+CREATE TABLE Log_Values( 
+  id IDENTITY NOT NULL PRIMARY KEY,
+  tipo_log VARCHAR(1),
+  message VARCHAR(500)
+);
